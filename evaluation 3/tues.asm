@@ -78,7 +78,7 @@ x3:	;increment column by 1
 	mov ah,07h
 x10:
 	int 21h
-	cmp al,'%'
+	cmp al,'?'
 	jnz x10
 
 
