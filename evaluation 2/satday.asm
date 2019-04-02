@@ -30,7 +30,7 @@
 	int 21h
 	mov handle1,ax
 
-	;Open the file a.txt
+	;Open the file b.txt
 	mov ah,3dh
 	mov al,2
 	lea dx,fname2
